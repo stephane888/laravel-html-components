@@ -1,0 +1,30 @@
+{
+	"name" : "stephane888/laravel-html-components",
+	"description" : "Laravel html components",
+	"type" : "library",
+	"license" : "MIT",
+	"version" : "1.0",
+	"authors" : [{
+			"name" : "stephane888",
+			"email" : "kksasteph888@gmail.com",
+			"homepage" : "http://wb-universe.com",
+			"role" : "Developer"
+		}
+	],
+	"minimum-stability" : "stable",
+	"autoload" : {
+		"psr-4" : {
+			"Stephane888\\LaravelHtmlComponents\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Stephane888\\LaravelHtmlComponents\\HtmlComponentsServiceProvider"
+			]
+		}
+	},
+	"require" : {
+		"php" : "^7.2"
+	}
+}
